@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  width: 500px;
+  margin: 20px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-entry {
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-date {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-range {
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+.btn-steps {
+  width: 80px;
+  height: 30px;
+  align-self: end;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.record-table {
+  margin-top: 15px;
+}
+
+.board-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 25px;
+}
+
+.board-body {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.step {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 25px;
+}
+
+.btn-change, .btn-remove {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.btn-change {
+  background-image: url(../src/image/edit.png);
+}
+.btn-remove {
+  background-image: url(../src/image/remove.png);
 }
