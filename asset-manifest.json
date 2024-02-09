@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ra-recording-of-training/static/css/main.5176bfb1.css",
+    "main.js": "/ra-recording-of-training/static/js/main.1b723043.js",
+    "index.html": "/ra-recording-of-training/index.html",
+    "main.5176bfb1.css.map": "/ra-recording-of-training/static/css/main.5176bfb1.css.map",
+    "main.1b723043.js.map": "/ra-recording-of-training/static/js/main.1b723043.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5176bfb1.css",
+    "static/js/main.1b723043.js"
+  ]
+}
