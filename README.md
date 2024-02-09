@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/adxk62e3ly6adrg1?svg=true)](https://ci.appveyor.com/project/VMoiseev/ra-recording-of-training)
+## [Проект](https://vmoiseev.github.io/ra-recording-of-training/)
+
+
 Учёт тренировок
 ===
 
